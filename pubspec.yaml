@@ -1,0 +1,30 @@
+name: agent76
+description: May the App Be With You
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+   - assets/dark-stone.jpg
+   - assets/home.jpg
+   - assets/left.png
+   - assets/middle.png
+   - assets/right.png
+   - assets/epoint.gif
